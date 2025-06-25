@@ -8,18 +8,29 @@ Visit: https://aitextprediction-kvotlzlbq6hprve9jbgcej.streamlit.app/
 
 To run locally and perform any changes:
 
-1. Download the files from this repository
+1. Download the files from this repository.
    
-2. Download all the dependencies from the requirements.txt file.
+2. Download all the dependencies from the requirements.txt file. You can do this directly or by creating a python virtual environment.
+3. To create the virtual environment, go into the app and tyoe:
 
-   Go into the folder and run:
+   python -m venv your_file_name
+   
+5. Now, your virtual envirnoment should be set up.
+   Activate using,
+
+   your_file_name\Scripts\activate
+
+6. Now cd into the folder and run:
 
    pip install -r requirements.txt
+
+   to download all the dependencies.
    
-4. Now you can run the streamlit app with:
+8. Now you can run the streamlit app with:
+
    streamlit run app.py
 
    **Make sure all the required dependencies are downloaded**
 
-5. The machine learning algorithms are in the notebooks file. You can use the provided pkl files to run the models or change the models in
+9. The machine learning algorithms are in the notebooks file. You can use the provided pkl files to run the models or change the models in
    the ipynb file and export them
