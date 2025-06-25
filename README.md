@@ -11,13 +11,15 @@ To run locally and perform any changes:
 1. Download the files from this repository
    
 2. Download all the dependencies from the requirements.txt file.
+
    Go into the folder and run:
+
    pip install -r requirements.txt
    
-3. Now you can run the streamlit app with:
+4. Now you can run the streamlit app with:
    streamlit run app.py
 
    **Make sure all the required dependencies are downloaded**
 
-4. The machine learning algorithms are in the notebooks file. You can use the provided pkl files to run the models or change the models in
+5. The machine learning algorithms are in the notebooks file. You can use the provided pkl files to run the models or change the models in
    the ipynb file and export them
