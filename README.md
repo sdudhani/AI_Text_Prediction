@@ -1,4 +1,4 @@
-# AI_Text_Prediction
+# ClassiText
 
 An AI-text detection application to predict AI-generated text using machine learning models such as SVM, Decision-Trees and AdaBoost Classifiers. The models were deployed using Streamlit.
 
